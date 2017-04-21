@@ -21,6 +21,7 @@
 		92A339191E93A48100353165 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 92A339181E93A48100353165 /* music.png */; };
 		92A3391B1E93A5EF00353165 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92A3391A1E93A5EF00353165 /* music.mp3 */; };
 		92A3391F1E93AF1500353165 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A3391E1E93AF1500353165 /* PokemonDetailVC.swift */; };
+		92E8DAE81EA2946100D197A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E8DAE71EA2946100D197A9 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		92A339181E93A48100353165 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 		92A3391A1E93A5EF00353165 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		92A3391E1E93AF1500353165 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		92E8DAE71EA2946100D197A9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FA19C759EA72A688C5FE3D25 /* Pods-PokeDex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeDex.release.xcconfig"; path = "Pods/Target Support Files/Pods-PokeDex/Pods-PokeDex.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				92A339111E9388E600353165 /* csv.swift */,
+				92E8DAE71EA2946100D197A9 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				92A338F81E90FC6300353165 /* ViewController.swift in Sources */,
 				92A338F61E90FC6300353165 /* AppDelegate.swift in Sources */,
 				92A3391F1E93AF1500353165 /* PokemonDetailVC.swift in Sources */,
+				92E8DAE81EA2946100D197A9 /* Constants.swift in Sources */,
 				92A3390B1E91032800353165 /* Pokemon.swift in Sources */,
 				92A339121E9388E600353165 /* csv.swift in Sources */,
 			);
@@ -454,6 +458,7 @@
 				92A339061E90FC6300353165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
